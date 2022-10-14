@@ -17,6 +17,7 @@ def socket_create():
         #todo...
         # Set socket timeout as 1 second - <socket_name>.settimeout(timeout)
         #todo...
+        print();
     except socket.error as msg:
         print("Socket creation error: " + str(msg))
 
